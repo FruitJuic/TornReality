@@ -1,0 +1,3 @@
+displayName = Torn Reality
+author = FruitJuic3
+version = 0.1

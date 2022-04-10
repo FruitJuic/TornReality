@@ -1,0 +1,28 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Accessories/TornGlove.cs">
+    <Files>
+      <File FileName="Items/TestWeapon.cs" Line="39" Column="2" />
+      <File FileName="Accessories/TornGlove.cs" Line="22" Column="13" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="TornReality" expanded="True">
+            <Node name="TornReality" expanded="True">
+              <Node name="Accessories" expanded="True">
+                <Node name="TornGlove.cs" selected="True" />
+              </Node>
+              <Node name="Items" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
