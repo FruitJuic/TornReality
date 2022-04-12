@@ -16,13 +16,13 @@ namespace TornReality.Items
 
 		public override void SetDefaults()
 		{
-			Item.damage = 999999999;
+			Item.damage = 20;
 			Item.DamageType = ModContent.GetInstance<DamageClasses.WarlordDamageClass>();
 			Item.width = 400;
 			Item.height = 400;
-			Item.useTime = 0;
-			Item.useAnimation = 0;
-			Item.useStyle = 1;
+			Item.useTime = 20;
+			Item.useAnimation = 20;
+			Item.useStyle = ItemUseStyleID.Swing;
 			Item.knockBack = 6;
 			Item.value = 10000;
 			Item.rare = 2;
