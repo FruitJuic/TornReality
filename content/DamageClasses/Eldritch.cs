@@ -6,7 +6,7 @@ namespace TornReality.DamageClasses
 	public class Eldritch : DamageClass
 	{
 		public override void SetStaticDefaults() {
-			ClassName.SetDefault("Warlord Damage");
+			ClassName.SetDefault("Eldritch Damage");
 		}
 
 		protected override float GetBenefitFrom(DamageClass damageClass) {

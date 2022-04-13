@@ -2,7 +2,7 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace TornReality.Items
+namespace TornReality.Materials
 {
 	public class DimensionalShard : ModItem
 	{

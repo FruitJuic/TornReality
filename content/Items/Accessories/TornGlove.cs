@@ -11,10 +11,11 @@ namespace TornReality.Accessories
 		public override void SetStaticDefaults()
 		{
 			Tooltip.SetDefault(
-				"15% Increased Damage\n" +
-				"50% Increased Warlord Damage\n" +
-				"100% Increased Melee Speed\n" +
-				"Why does this old glove give stat boosts? It isn't even whole."
+				"+15% Increased Damage\n" +
+				"+50% Increased Warlord Damage\n" +
+				"+100% Increased Melee Speed\n" +
+				"Why does this old glove give stat boosts? It isn't even whole. You can't even wear it... better just put it in your pocket\n" +
+				"Accessory"
 				);
 		}
 
@@ -34,7 +35,7 @@ namespace TornReality.Accessories
 		{
 			CreateRecipe().
 			AddIngredient(ItemID.TitanGlove, 1).
-			AddIngredient(ModContent.ItemType<Items.DimensionalShard>(), 2).
+			AddIngredient(ModContent.ItemType<Materials.DimensionalShard>(), 2).
 			AddTile(TileID.Dirt).
 			Register();
 		}

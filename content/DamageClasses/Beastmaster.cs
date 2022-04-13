@@ -6,7 +6,7 @@ namespace TornReality.DamageClasses
 	public class Beastmaster : DamageClass
 	{
 		public override void SetStaticDefaults() {
-			ClassName.SetDefault("Warlord Damage");
+			ClassName.SetDefault("Beastmaster Damage");
 		}
 
 		protected override float GetBenefitFrom(DamageClass damageClass) {
