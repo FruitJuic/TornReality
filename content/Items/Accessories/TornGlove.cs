@@ -26,7 +26,7 @@ namespace TornReality.Accessories
         public override void UpdateAccessory(Player player, bool hideVisual)
         {
             player.GetDamage(DamageClass.Generic) *= 1.15f;
-			player.GetDamage<DamageClasses.WarlordDamageClass>() *= 1.5f;
+			player.GetDamage<DamageClasses.Warlord>() *= 1.5f;
 			player.meleeSpeed *= 2f;
         }
 

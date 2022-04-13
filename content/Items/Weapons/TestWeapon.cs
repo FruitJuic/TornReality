@@ -17,7 +17,7 @@ namespace TornReality.Items
 		public override void SetDefaults()
 		{
 			Item.damage = 20;
-			Item.DamageType = ModContent.GetInstance<DamageClasses.WarlordDamageClass>();
+			Item.DamageType = ModContent.GetInstance<DamageClasses.Warlord>();
 			Item.width = 400;
 			Item.height = 400;
 			Item.useTime = 20;

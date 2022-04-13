@@ -3,7 +3,7 @@ using Terraria.ModLoader;
 
 namespace TornReality.DamageClasses
 {
-	public class WarlordDamageClass : DamageClass
+	public class Beastmaster : DamageClass
 	{
 		public override void SetStaticDefaults() {
 			ClassName.SetDefault("Warlord Damage");
@@ -13,7 +13,7 @@ namespace TornReality.DamageClasses
 			if (damageClass == DamageClass.Generic)
 				return 1f;
 
-			if (damageClass == DamageClass.Melee)
+			if (damageClass == DamageClass.Summon)
 				return 0.5f;
 			
 
