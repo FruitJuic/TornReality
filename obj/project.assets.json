@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {
+    ".NETFramework,Version=v6.0": {
       "tModLoader.CodeAssist/0.1.3": {
         "type": "package"
       }
@@ -9,10 +9,9 @@
   },
   "libraries": {
     "tModLoader.CodeAssist/0.1.3": {
-      "sha512": "2TVpwEsbJF+LZOGZ7q/VTTcsnFnQzngjVOcwkzGlXimFXEMjPROLjDv32F/eA+k2MLHtdL0DJ0JNWudUVs70fw==",
+      "sha512": "zwawmUIh3jownf0VRVA/Cb7qL16z14FVLV6NCqRzPVb8fSu646tM4Gd6Zj41DnwaP8hz04eGdfwJjBZiUMNmxw==",
       "type": "package",
       "path": "tmodloader.codeassist/0.1.3",
-      "hasTools": true,
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -26,7 +25,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net6.0": [
+    ".NETFramework,Version=v6.0": [
       "tModLoader.CodeAssist >= 0.1.*"
     ]
   },
@@ -43,17 +42,16 @@
       "outputPath": "/home/fruitjuic3/.var/app/com.valvesoftware.Steam/.local/share/Terraria/tModLoader/ModSources/TornReality/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/fruitjuic3/.nuget/NuGet/NuGet.Config"
+        "/home/fruitjuic3/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
-        "net6.0"
+        "net60"
       ],
       "sources": {
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net60": {
           "projectReferences": {}
         }
       },
@@ -64,30 +62,13 @@
       }
     },
     "frameworks": {
-      "net6.0": {
-        "targetAlias": "net6.0",
+      "net60": {
         "dependencies": {
           "tModLoader.CodeAssist": {
             "target": "Package",
             "version": "[0.1.*, )"
           }
-        },
-        "imports": [
-          "net461",
-          "net462",
-          "net47",
-          "net471",
-          "net472",
-          "net48"
-        ],
-        "assetTargetFallback": true,
-        "warn": true,
-        "frameworkReferences": {
-          "Microsoft.NETCore.App": {
-            "privateAssets": "all"
-          }
-        },
-        "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/158/sdk/6.0.201/RuntimeIdentifierGraph.json"
+        }
       }
     }
   }
