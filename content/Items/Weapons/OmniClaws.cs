@@ -19,12 +19,12 @@ namespace TornReality.Weapons
             Item.height = 20;
 
             Item.useStyle = ItemUseStyleID.Swing;
-            Item.useTime = 10;
-            Item.useAnimation = 10;
+            Item.useTime = 1;
+            Item.useAnimation = 5;
             Item.autoReuse = true;
 
             Item.DamageType = ModContent.GetInstance<DamageClasses.Eldritch>();
-            Item.damage = 998;
+            Item.damage = 99998;
             Item.knockBack = 0;
             Item.crit = 35;
 
@@ -41,11 +41,12 @@ namespace TornReality.Weapons
 
         public override void AddRecipes()
         {
-            CreateRecipe().
-            AddIngredient<Weapons.EldritchClaws>().
-            AddIngredient(ItemID.DrillContainmentUnit).
-            AddTile(TileID.TinkerersWorkbench).
-            Register();
+            CreateRecipe()
+                .AddIngredient<Weapons.EldritchClaws>()
+                .AddIngredient(ItemID.DrillContainmentUnit)
+                .AddIngredient(ItemID.Zenith)
+                .AddTile<Tiles.RealityManipulator>()
+                .Register();
         }
     }
 }

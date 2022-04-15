@@ -33,11 +33,11 @@ namespace TornReality.Accessories
 
 		public override void AddRecipes()
 		{
-			CreateRecipe().
-			AddIngredient(ItemID.TitanGlove, 1).
-			AddIngredient(ModContent.ItemType<Materials.DimensionalShard>(), 2).
-			AddTile(TileID.Dirt).
-			Register();
+			CreateRecipe()
+			.AddIngredient(ItemID.TitanGlove, 1)
+			.AddIngredient(ModContent.ItemType<Materials.DimensionalShard>(), 2)
+			.AddTile<Tiles.RealityManipulator>()
+			.Register();
 		}
 	}
 }
