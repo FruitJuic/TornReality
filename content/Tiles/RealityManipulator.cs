@@ -5,7 +5,7 @@ using Terraria.ID;
 using Terraria.ModLoader;
 using Terraria.ObjectData;
 
-namespace TornReality.Tiles
+namespace TornReality.Content.Tiles
 {
     public class RealityManipulator : ModTile
     {
@@ -36,7 +36,7 @@ namespace TornReality.Tiles
 		}
 
 		public override void KillMultiTile(int x, int y, int frameX, int frameY) {
-			Item.NewItem(new EntitySource_TileBreak(x, y), x * 16, y * 16, 32, 16, ModContent.ItemType<Placeables.RealityManipulator>());
+			Item.NewItem(new EntitySource_TileBreak(x, y), x * 16, y * 16, 32, 16, ModContent.ItemType<Items.Placeables.RealityManipulator>());
 		}
     }
 }

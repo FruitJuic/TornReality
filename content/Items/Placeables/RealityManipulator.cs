@@ -2,7 +2,7 @@ using Terraria.ID;
 using Terraria.GameContent.Creative;
 using Terraria.ModLoader;
 
-namespace TornReality.Placeables
+namespace TornReality.Content.Items.Placeables
 {
 	public class RealityManipulator : ModItem
 	{

@@ -2,7 +2,7 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace TornReality.Accessories
+namespace TornReality.Content.Items.Accessories
 {
 	public class TornGlove : ModItem
 	{

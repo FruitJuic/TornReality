@@ -2,7 +2,7 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace TornReality.Weapons
+namespace TornReality.Content.Items.Weapons
 {
     public class Omniclaws : ModItem
     {
