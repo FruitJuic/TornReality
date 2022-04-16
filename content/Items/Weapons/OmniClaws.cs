@@ -10,7 +10,7 @@ namespace TornReality.Content.Items.Weapons
 
         public override void SetStaticDefaults()
 		{
-			Tooltip.SetDefault("A claw from an Eldritch Cat, Nya~");
+			Tooltip.SetDefault("A claw from an Eldritch Cat, Nya~\n-1 Range");
 		}
 
         public override void SetDefaults()
@@ -36,7 +36,7 @@ namespace TornReality.Content.Items.Weapons
             Item.axe = 299;
             Item.hammer = 299;
 
-            
+            Item.tileBoost -= 1;
         }
 
         public override void AddRecipes()

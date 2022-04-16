@@ -10,7 +10,7 @@ namespace TornReality.Content.Items.Weapons
 
         public override void SetStaticDefaults()
 		{
-			Tooltip.SetDefault("A claw from an Eldritch Cat, Nya~");
+			Tooltip.SetDefault("A claw from an Eldritch Cat, Nya~\n-1 Range");
 		}
 
         public override void SetDefaults()
@@ -33,6 +33,8 @@ namespace TornReality.Content.Items.Weapons
             Item.UseSound = SoundID.Item1;
 
             Item.pick = 299;
+
+            Item.tileBoost -= 1;
         }
     }
 }
