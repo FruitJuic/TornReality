@@ -1,0 +1,48 @@
+DamageClasses: {
+	Beastmaster.DisplayName: Beastmaster
+	Eldritch.DisplayName: Eldritch
+	Warlord.DisplayName: Warlord
+	Warmonger.DisplayName: Warmonger
+}
+
+Items: {
+	Ammobag: {
+		DisplayName: Ammobag
+		Tooltip: ""
+	}
+
+	TornGlove: {
+		DisplayName: Torn Glove
+		Tooltip: ""
+	}
+
+	DimensionalShard: {
+		DisplayName: Dimensional Shard
+		Tooltip: ""
+	}
+
+	RealityManipulator: {
+		DisplayName: Reality Manipulator
+		Tooltip: ""
+	}
+
+	EldritchClaws: {
+		DisplayName: Eldritch Claws
+		Tooltip: ""
+	}
+
+	FruitCobbler: {
+		DisplayName: Fruit Cobbler
+		Tooltip: ""
+	}
+
+	Omniclaws: {
+		DisplayName: Omniclaws
+		Tooltip: ""
+	}
+
+	TestWeapon: {
+		DisplayName: Test Weapon
+		Tooltip: ""
+	}
+}

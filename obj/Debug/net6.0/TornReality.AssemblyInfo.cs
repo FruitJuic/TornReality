@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TornReality")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4fbda6ce086edf0314a5b291fcf69eb332b3068c")]
 [assembly: System.Reflection.AssemblyProductAttribute("TornReality")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TornReality")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

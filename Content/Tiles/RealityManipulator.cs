@@ -10,7 +10,7 @@ namespace TornReality.Content.Tiles
     public class RealityManipulator : ModTile
     {
 
-        public override string Texture => $"TornReality/Assets/Images/RealityManipulator";
+        //public override string Texture => $"TornReality/Assets/Images/RealityManipulator";
 
         public override void SetStaticDefaults() {
 			// Properties
@@ -30,9 +30,9 @@ namespace TornReality.Content.Tiles
 			TileObjectData.addTile(Type);
 
 			// Etc
-			ModTranslation name = CreateMapEntryName();
-			name.SetDefault("Reality Manipulator");
-			AddMapEntry(new Color(200, 200, 200), name);
+			//ModTranslation name = CreateMapEntryName();
+			//name.SetDefault("Reality Manipulator");
+			//AddMapEntry(new Color(200, 200, 200), name);
 		}
 
 		public override void KillMultiTile(int x, int y, int frameX, int frameY) {

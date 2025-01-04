@@ -6,17 +6,16 @@ namespace TornReality.Content.Items.Accessories
 {
 	public class TornGlove : ModItem
 	{
-		public override string Texture => $"TornReality/Assets/Images/TornGlove";
 
 		public override void SetStaticDefaults()
 		{
-			Tooltip.SetDefault(
-				"+15% Increased Damage\n" +
-				"+50% Increased Warlord Damage\n" +
-				"+100% Increased Melee Speed\n" +
-				"Why does this old glove give stat boosts? It isn't even whole. You can't even wear it... better just put it in your pocket\n" +
-				"Accessory"
-				);
+			//Tooltip.SetDefault(
+			//	"+15% Increased Damage\n" +
+			//	"+50% Increased Warlord Damage\n" +
+			//	"+100% Increased Melee Speed\n" +
+			//	"Why does this old glove give stat boosts? It isn't even whole. You can't even wear it... better just put it in your pocket\n" +
+			//	"Accessory"
+			//	);
 		}
 
 		public override void SetDefaults()
@@ -24,12 +23,12 @@ namespace TornReality.Content.Items.Accessories
 			Item.accessory = true;
 		}
 
-        public override void UpdateAccessory(Player player, bool hideVisual)
-        {
-            player.GetDamage(DamageClass.Generic) *= 1.15f;
+		public override void UpdateAccessory(Player player, bool hideVisual)
+		{
+			player.GetDamage(DamageClass.Generic) *= 1.15f;
 			player.GetDamage<DamageClasses.Warlord>() *= 1.5f;
-			player.meleeSpeed *= 2f;
-        }
+			player.GetAttackSpeed<DamageClasses.Warlord>() *= 2f;
+		}
 
 		public override void AddRecipes()
 		{

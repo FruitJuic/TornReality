@@ -10,7 +10,7 @@ namespace TornReality.Content.Items.Weapons
 
         public override void SetStaticDefaults()
 		{
-			Tooltip.SetDefault("A claw from an Eldritch Cat, Nya~\n-1 Range");
+			//Tooltip.SetDefault("A claw from an Eldritch Cat, Nya~\n-1 Range");
 		}
 
         public override void SetDefaults()

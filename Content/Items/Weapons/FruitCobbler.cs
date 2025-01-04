@@ -10,14 +10,14 @@ namespace TornReality.Content.Items.Weapons
 
         public override void SetStaticDefaults()
 		{
-			Tooltip.SetDefault("Getting cobbled by a fruit? Sounds like a bad idea.");
+			//Tooltip.SetDefault("Getting cobbled by a fruit? Sounds like a bad idea.");
 		}
 
         public override void SetDefaults()
         {
-            Item.width = 20;
-            Item.height = 20;
-
+            Item.width = 5;
+            Item.height = 5;
+            
             Item.useStyle = ItemUseStyleID.Swing;
             Item.useTime = 10;
             Item.useAnimation = 10;

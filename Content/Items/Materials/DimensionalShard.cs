@@ -6,11 +6,11 @@ namespace TornReality.Content.Items.Materials
 {
 	public class DimensionalShard : ModItem
 	{
-		public override string Texture => $"TornReality/Assets/Images/DimensionalShard";
+		//public override string Texture => $"TornReality/Assets/Images/DimensionalShard";
 
 		public override void SetStaticDefaults()
 		{
-            Tooltip.SetDefault("No");
+            		//Tooltip.SetDefault("No");
 		}
 
 		public override void SetDefaults()
